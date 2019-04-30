@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+
+        <item
+            android:id="@+id/nav_intro"
+            android:icon="@drawable/circled_i"
+            android:title="Introduction" />
+
+    </group>
+
+    <item android:title="Data Structures">
+        <menu>
+            <item
+                android:id="@+id/nav_array"
+                android:icon="@drawable/circled_a"
+                android:title="Arrays" />
+            <item
+                android:id="@+id/nav_list"
+                android:icon="@drawable/circled_l"
+                android:title="Linked Lists" />
+            <item
+                android:id="@+id/nav_stack"
+                android:icon="@drawable/circled_s"
+                android:title="Stacks" />
+            <item
+                android:id="@+id/nav_queue"
+                android:icon="@drawable/circled_q"
+                android:title="Queues" />
+        </menu>
+    </item>
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutUs"
+                android:icon="@drawable/circled_a"
+                android:title="About Us" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "592052179313",
+    "firebase_url": "https://datastructurelearning.firebaseio.com",
+    "project_id": "datastructurelearning",
+    "storage_bucket": "datastructurelearning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592052179313:android:5f412ece58a2ba3c",
+        "android_client_info": {
+          "package_name": "com.example.datastructurelearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592052179313-7o58ralt6oigoqpcipalng80nv263kos.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.datastructurelearning",
+            "certificate_hash": "acc1be6d781edfd39f7c737ccdc543bdd656338e"
+          }
+        },
+        {
+          "client_id": "592052179313-beild68jmtcfce1284h85iv239eas0lv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdN_Xix3YnAkoh9O0GhAc-6h48g6OCKxo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592052179313-beild68jmtcfce1284h85iv239eas0lv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

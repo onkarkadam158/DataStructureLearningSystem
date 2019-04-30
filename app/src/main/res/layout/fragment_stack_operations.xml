@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Stack.StackOperations"
+    android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/relativeLayout1">
+
+            <at.markushi.ui.CircleButton
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                app:cb_color="#049CE5"
+                android:foreground="@drawable/circled_v_filled_100"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                android:id="@+id/pushButton"
+                app:cb_pressedRingWidth="8dip"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pushButton"
+                android:text="Push Operation"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:id="@+id/pushTextView"
+                android:textSize="20sp"/>
+
+            <at.markushi.ui.CircleButton
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                app:cb_color="#049CE5"
+                android:id="@+id/popButton"
+                android:foreground="@drawable/circled_p_filled_100"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_toRightOf="@+id/pushButton"
+                app:cb_pressedRingWidth="8dip"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pop Operation"
+                android:textSize="20sp"
+                android:id="@+id/popTextView"
+                android:layout_below="@+id/popButton"
+                android:layout_toRightOf="@+id/pushTextView"
+                android:layout_marginLeft="30dp" />
+
+        </RelativeLayout>
+
+        <at.markushi.ui.CircleButton
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            app:cb_color="#049CE5"
+            android:id="@+id/displayButton"
+            android:layout_centerInParent="true"
+            android:foreground="@drawable/circled_p_filled_100"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            app:cb_pressedRingWidth="8dip"
+            android:layout_below="@+id/relativeLayout1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Operation"
+            android:textSize="20sp"
+            android:id="@+id/displayTextView"
+            android:layout_below="@+id/displayButton"
+            android:layout_marginLeft="30dp"
+            android:layout_centerInParent="true"/>
+
+</RelativeLayout>

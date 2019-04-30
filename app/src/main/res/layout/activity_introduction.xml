@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Introduction.IntroductionActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduction To Data Structures"
+        android:id="@+id/introduction"
+        android:textSize="25sp"
+        android:paddingLeft="34dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/introduction"
+        android:id="@+id/relativeLayout1"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true">
+
+
+        <at.markushi.ui.CircleButton
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            app:cb_color="#049CE5"
+            android:foreground="@drawable/circled_v_filled_100"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:id="@+id/variableButton"
+            app:cb_pressedRingWidth="8dip"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/variableButton"
+            android:text="Variables"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:id="@+id/variableTextView"
+            android:textSize="20sp"/>
+
+
+
+
+        <at.markushi.ui.CircleButton
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            app:cb_color="#049CE5"
+            android:id="@+id/pointerButton"
+            android:foreground="@drawable/circled_p_filled_100"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_toRightOf="@+id/variableButton"
+            app:cb_pressedRingWidth="8dip"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pointer"
+            android:textSize="20sp"
+            android:id="@+id/pointerTextView"
+            android:layout_below="@+id/variableButton"
+            android:layout_toRightOf="@+id/variableButton"
+            android:layout_marginLeft="30dp"
+            />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:id="@+id/relativeLayout2"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true">
+
+        <at.markushi.ui.CircleButton
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            app:cb_color="#049CE5"
+            android:foreground="@drawable/circled_f_filled_100"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:id="@+id/functionButton"
+            app:cb_pressedRingWidth="8dip"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Function"
+            android:textSize="20sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:id="@+id/functionTextView"
+            android:layout_below="@+id/functionButton"/>
+
+
+        <at.markushi.ui.CircleButton
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            app:cb_color="#049CE5"
+            android:foreground="@drawable/circled_r_filled_100"
+            android:id="@+id/recursionButton"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_toRightOf="@+id/functionButton"
+            app:cb_pressedRingWidth="8dip"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recursion"
+            android:textSize="20sp"
+            android:layout_below="@+id/functionButton"
+            android:layout_toRightOf="@+id/functionButton"
+            android:paddingLeft="24dp"
+
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout2"
+        android:id="@+id/relativeLayout3"
+        android:layout_marginTop="50dp"
+        android:layout_centerInParent="true">
+
+        <at.markushi.ui.CircleButton
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            app:cb_color="#049CE5"
+            android:foreground="@drawable/circled_s_filled_100"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:id="@+id/structureButton"
+            app:cb_pressedRingWidth="8dip"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Structure"
+            android:textSize="20sp"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:id="@+id/structureTextView"
+            android:layout_below="@+id/structureButton"/>
+
+        <at.markushi.ui.CircleButton
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            app:cb_color="#049CE5"
+            android:foreground="@drawable/circled_c_filled_100"
+            android:id="@+id/classButton"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_toRightOf="@+id/structureButton"
+            app:cb_pressedRingWidth="8dip"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/classTextView"
+            android:text="Class"
+            android:textSize="20sp"
+            android:layout_below="@+id/structureButton"
+            android:layout_toRightOf="@+id/structureButton"
+            android:paddingLeft="40dp"
+            />
+    </RelativeLayout>
+</RelativeLayout>

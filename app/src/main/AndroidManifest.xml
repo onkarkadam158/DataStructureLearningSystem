@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.datastructurelearning">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Stack.Display.DisplayActivity"></activity>
+        <activity android:name=".Stack.Pop.PopActivity" />
+        <activity android:name=".Stack.Push.PushActivity" />
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Introduction.Class.ClassActivity" />
+        <activity android:name=".Introduction.Structure.StructureActivity" />
+        <activity android:name=".Introduction.Recursion.RecursionActivity" />
+        <activity android:name=".Introduction.Functions.FunctionActivity" />
+        <activity android:name=".Introduction.Pointers.PointerActivity" />
+        <activity android:name=".Introduction.Variables.VariableActivity" />
+        <activity android:name=".Introduction.Class.ClassActivity" />
+        <activity android:name=".Introduction.Structure.StructureActivity" />
+        <activity android:name=".Introduction.Recursion.RecursionActivity" />
+        <activity android:name=".Introduction.Functions.FunctionActivity" />
+        <activity android:name=".Introduction.Pointers.PointerActivity" />
+        <activity android:name=".Introduction.Variables.VariableActivity" />
+        <activity android:name=".Queue.QueueActivity" />
+        <activity android:name=".Stack.StackActivity" />
+        <activity android:name=".List.ListActivity" />
+        <activity android:name=".Array.ArrayActivity" />
+        <activity android:name=".Introduction.IntroductionActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
